@@ -1,11 +1,14 @@
 /*======= Font rengini #3C373B yapan bir yeni bir universal selector yaratın*/
-
+*{
+  color:#3C373B;
+}
 
 h1 {
   font-family: 'Gaegu', cursive;
   margin: 20px 0;
   /*=======  Font size'ı 60px yapın ve text'i ortalayın(center) */
-  font-size: 10px;
+  font-size: 60px;
+  text-align: center;
 }
 
 h2, h3, h4, h5, h6 {
@@ -13,7 +16,7 @@ h2, h3, h4, h5, h6 {
   margin-bottom: 0;
   padding: 0 10px;
   /*=======  Font size'ı 30px yapın*/
-  font-size: 10px;
+  font-size: 30px;
 }
 
 /*======= Sayfadaki TÜM p tag'leri için aşağıdaki özellikleri içeren bir selector yaratın:
@@ -24,10 +27,15 @@ padding: 10px;
 line-height: 1.4;
 
 */
-
-
+.gray_back{
+  background: grey;
+}
+img{
+  border-radius: 10px;
+  width: 100%;
+}
 /*======= Sayfadaki TÜM imajlar için aşağıdaki özellikleri içeren bir selector yaratın:
-
+img{
   border-radius: 10px;
 
 */
@@ -45,6 +53,10 @@ line-height: 1.4;
   margin: 0 auto;
 }
 
+.container{
+width: 70%;
+  margin: 0 auto;
+} 
 .container header nav a {
   margin: 0 10px;
   border: 1px solid lightgray;
@@ -54,6 +66,8 @@ line-height: 1.4;
   color: white;
   text-decoration: none;
   margin-bottom: 20px;
+  background:#E79947 ;
+
    /*======= background property yaratın. Değerini #E79947 olarak atayınız.*/
   
 }
